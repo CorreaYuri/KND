@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(/imag/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border-bottom: solid black 2px ;
+    border-bottom: solid #f5ea78 1px;
+}
+
+
+#selectPersonage{
+    display: inline-block;
+    margin-top: 1em;
+    position: relative;
+    margin-left: 10em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    border-bottom: solid #f3e11685 2px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 200;
+    
+}
+#nav{
+    width: 100%;
+    position: relative;
+    margin-top: 2em;
+}
+#nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#nav ul a{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color:#f3e116d3 ;
+
+    
+}
+
+#logoTipo{
+    width: 100px;
+
+}
+#select{
+    display: flex;
+    margin-top: 2em;
+    overflow: hidden;
+}
+
+#container-select{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-bottom: dotted  #ececec 3px;
+    border-left: 3px dotted  #ececec;
+    gap: 15px;
+    bottom: 3em;
+    margin-left: 2em;
+    padding: 0 0 1em 1em;
+}
+.imgCard{
+    width: 200px;
+    height: 8em;
+    border: 5px white solid;
+    border-radius: 10px;
+    filter: opacity(60%);
+    transition: 1s;
+}
+.imgCard:hover{
+    filter: opacity(100%);
+}
+
+#personage{
+
+    display: flex;
+    width: 800px;
+    height: auto;
+    bottom: 40px;
+}
+#PersonageDisplay{
+    width: 300px;
+    height: 300px;
+}
+
+#imgN1{
+    background-color: #8FB3A2;
+}
+#imgN2{
+    background-color: #B3A18F;
+}
+#imgN3{
+    background-color: #B38F91;
+}
+#imgN4{
+    background-color: #8FA8B3;
+}
+#imgN5{
+    background-color: #B3AB8F;
+}
+
+.cardPersonage{
+    display: grid;
+    box-shadow: 0px 20px 40px black ;
+    border-radius: 0 0 10px 10px;
+    transition: 1s;
+    height: auto;
+    
+}
+.cardPersonage:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+    box-shadow: 0px 5px 20px #f3e11685 ;
+}
+#description{
+    overflow:hidden;
+    display: flex;
+    gap: 4em;
+    width: 40%;
+    height: auto;
+}
+.imgkids{
+    display: inline-block;
+    position: relative;
+    margin:  0 5px;
+}
+#infoPersonag{
+    position: relative;
+    border: 2px solid red;
+    right: 8em;
+    bottom: 8em;
+    text-align: center;
+}
